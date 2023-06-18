@@ -1,5 +1,5 @@
 import React from 'react'
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 const data = [
   {
@@ -33,7 +33,7 @@ const ChartOne = () => {
     
   return (
     
-    <div className='absolute ml-40 mt-60' width={800} height={400} >
+    <div className='flex justify-center items-center m-auto' width={800} height={400} >
         <LineChart
           width={600}
           height={300}

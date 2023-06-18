@@ -7,11 +7,11 @@ import {
   HiOutlineSquare3Stack3D,
 } from "react-icons/hi2";
 
-const DashBoard = () => {
+const DashBoard = (props) => {
     
   return (
     <>
-      <div className="flex flex-col text-bold text-[35px] m-4">
+      <div className="flex flex-col justify-center items-center text-bold text-[35px] m-auto">
         <p className="xl:text-[35px] sm:text-[25px]">Dashboard</p>
         <div className="flex justify-start text-[15px]">
           <div className="flex justify-center flex-col items-center border h-32 xl:w-32 sm:w-[70px] rounded-lg bg-gray-200 m-3 sm:text-[15px] xl:text-[20px]">
